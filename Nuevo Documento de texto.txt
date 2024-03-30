@@ -1,0 +1,70 @@
+CREATE DATABASE ALMACEN_YARID;
+
+
+CREATE TABLE Productos (
+    ID_Producto INT PRIMARY KEY,
+    Nombre VARCHAR(255),
+    Descripcion TEXT,
+    Codigo VARCHAR(50),
+    Categoria VARCHAR(100),
+    Precio DECIMAL(10, 2),
+    Unidad_Medida VARCHAR(50),
+    Fecha_Vencimiento DATE,
+    Cantidad INT
+);
+
+
+CREATE TABLE Proveedores (
+    ID_Proveedor INT PRIMARY KEY,
+    Nombre_Empresa VARCHAR(255),
+    Nombre_Contacto VARCHAR(100),
+    Direccion VARCHAR(255),
+    Telefono VARCHAR(15),
+    Correo_Electronico VARCHAR(100),
+    Terminos_Pago VARCHAR(100),
+    Fecha_Entrega_Producto DATE
+);
+
+
+
+CREATE TABLE Entradas_Inventario (
+    ID_Entrada INT PRIMARY KEY,
+    ID_Producto INT,
+    Cantidad_Recibida INT,
+    Fecha_Hora_Entrada DATETIME,
+    ID_Proveedor INT,
+    Numero_Factura VARCHAR(50),
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto),
+    FOREIGN KEY (ID_Proveedor) REFERENCES Proveedores(ID_Proveedor)
+);
+
+
+
+CREATE TABLE Salidas_Inventario (
+    ID_Salida INT PRIMARY KEY,
+    ID_Producto INT,
+    Cantidad_Retirada INT,
+    Fecha_Hora_Salida DATETIME,
+    Motivo_Salida VARCHAR(255),
+    ID_Cliente INT,
+    Numero_Factura VARCHAR(50),
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto)
+);
+
+
+
+CREATE TABLE Movimientos_Inventario (
+    ID_Movimiento INT PRIMARY KEY,
+    Tipo_Movimiento VARCHAR(10),
+    ID_Producto INT,
+    Cantidad_Movida INT,
+    Fecha_Hora_Movimiento DATETIME,
+    Origen VARCHAR(255),
+    Destino VARCHAR(255),
+    FOREIGN KEY (ID_Producto) REFERENCES Productos(ID_Producto)
+);
+
+
+
+
+
