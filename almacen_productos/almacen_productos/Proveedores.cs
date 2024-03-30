@@ -3,6 +3,8 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 
 namespace almacen_productos
+
+
 {
     public partial class Proveedores : Form
     {
@@ -12,6 +14,12 @@ namespace almacen_productos
         public Proveedores()
         {
             InitializeComponent();
+
+        
+                InitializeComponent();
+                btnvolver.Click += btnvolver_Click; // Suscripción al evento Click del botón "Volver"
+            
+
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -75,6 +83,16 @@ namespace almacen_productos
         private void Proveedores_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnvolver_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario actual (Productos)
+            this.Close();
+
+            // Mostrar el formulario principal (Form1)
+            Form1 formPrincipal = new Form1();
+            formPrincipal.Show();
         }
     }
 }

@@ -19,6 +19,12 @@ namespace almacen_productos
         public Productos()
         {
             InitializeComponent();
+         
+            
+                InitializeComponent();
+                btnvolver.Click += btnvolver_Click; // Suscripción al evento Click del botón "Volver"
+            
+
         }
 
         private void btnRegistrar_Click(object sender, EventArgs e)
@@ -64,6 +70,16 @@ namespace almacen_productos
                     }
                 }
             }
+        }
+
+        private void btnvolver_Click(object sender, EventArgs e)
+        {
+            // Cerrar el formulario actual (Productos)
+            this.Close();
+
+            // Mostrar el formulario principal (Form1)
+            Form1 formPrincipal = new Form1();
+            formPrincipal.Show();
         }
     }
 }

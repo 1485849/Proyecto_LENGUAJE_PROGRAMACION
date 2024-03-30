@@ -9,3 +9,15 @@ C:\Users\SOPORTE\Downloads\proyecto\almacen_productos\almacen_productos\obj\Debu
 C:\Users\SOPORTE\Downloads\proyecto\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.CoreCompileInputs.cache
 C:\Users\SOPORTE\Downloads\proyecto\almacen_productos\almacen_productos\obj\Debug\almacen_productos.exe
 C:\Users\SOPORTE\Downloads\proyecto\almacen_productos\almacen_productos\obj\Debug\almacen_productos.pdb
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.exe.config
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.exe
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.pdb
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.AssemblyReference.cache
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Form1.resources
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Productos.resources
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Properties.Resources.resources
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Proveedores.resources
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.GenerateResource.cache
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.CoreCompileInputs.cache
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.exe
+C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.pdb

@@ -46,13 +46,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnvolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegistrar
             // 
             this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRegistrar.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.Location = new System.Drawing.Point(312, 401);
+            this.btnRegistrar.Location = new System.Drawing.Point(312, 402);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Size = new System.Drawing.Size(147, 38);
             this.btnRegistrar.TabIndex = 35;
@@ -214,11 +215,24 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "REGISTRO DE PRODUCTOS";
             // 
+            // btnvolver
+            // 
+            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnvolver.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvolver.Location = new System.Drawing.Point(348, 456);
+            this.btnvolver.Name = "btnvolver";
+            this.btnvolver.Size = new System.Drawing.Size(99, 28);
+            this.btnvolver.TabIndex = 36;
+            this.btnvolver.Text = "Volver";
+            this.btnvolver.UseVisualStyleBackColor = false;
+            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
+            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 483);
+            this.ClientSize = new System.Drawing.Size(800, 569);
+            this.Controls.Add(this.btnvolver);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.tbcantidad);
             this.Controls.Add(this.dateTimePickerfechavencimiento);
@@ -264,5 +278,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnvolver;
     }
 }

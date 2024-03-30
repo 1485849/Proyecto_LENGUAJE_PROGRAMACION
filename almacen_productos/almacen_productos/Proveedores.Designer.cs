@@ -46,6 +46,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tbid = new System.Windows.Forms.TextBox();
             this.id_Proveedor = new System.Windows.Forms.Label();
+            this.btnvolver = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegistrar
@@ -214,12 +215,25 @@
             this.id_Proveedor.TabIndex = 38;
             this.id_Proveedor.Text = "ID";
             // 
+            // btnvolver
+            // 
+            this.btnvolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnvolver.Font = new System.Drawing.Font("Ravie", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvolver.Location = new System.Drawing.Point(368, 485);
+            this.btnvolver.Name = "btnvolver";
+            this.btnvolver.Size = new System.Drawing.Size(99, 28);
+            this.btnvolver.TabIndex = 40;
+            this.btnvolver.Text = "Volver";
+            this.btnvolver.UseVisualStyleBackColor = false;
+            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
+            // 
             // Proveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(800, 502);
+            this.ClientSize = new System.Drawing.Size(800, 572);
+            this.Controls.Add(this.btnvolver);
             this.Controls.Add(this.tbid);
             this.Controls.Add(this.id_Proveedor);
             this.Controls.Add(this.btnRegistrar);
@@ -265,5 +279,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tbid;
         private System.Windows.Forms.Label id_Proveedor;
+        private System.Windows.Forms.Button btnvolver;
     }
 }
