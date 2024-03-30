@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\",
+  "WorkspaceRootPath": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\downloads\\proyecto\\almacen_productos\\almacen_productos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\documents\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\documents\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\documents\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\documents\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\downloads\\proyecto\\almacen_productos\\almacen_productos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\downloads\\proyecto\\almacen_productos\\almacen_productos\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|c:\\users\\soporte\\downloads\\proyecto\\almacen_productos\\almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,15 +38,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Proveedores.cs",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
+              "RelativeToolTip": "almacen_productos\\Proveedores.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:10:52.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Productos.cs",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
+              "RelativeToolTip": "almacen_productos\\Productos.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwEAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:09:24.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Productos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Productos.cs",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "almacen_productos\\Productos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T19:08:58.23Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Proveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Proveedores.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Proveedores.cs",
-              "ToolTip": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Proveedores.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs [Dise\u00F1o]",
               "RelativeToolTip": "almacen_productos\\Proveedores.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T15:19:26.188Z",
@@ -42,11 +92,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.Designer.cs",
               "RelativeToolTip": "almacen_productos\\Form1.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,24 +105,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Form1.cs",
-              "ToolTip": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.cs",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
               "RelativeToolTip": "almacen_productos\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAuwEIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T15:15:19.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Form1.cs",
-              "ToolTip": "C:\\Users\\SOPORTE\\Downloads\\proyecto\\almacen_productos\\almacen_productos\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\SOPORTE\\Documents\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "almacen_productos\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T15:12:16.284Z",

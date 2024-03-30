@@ -44,6 +44,8 @@
             this.tbnombrecontacto = new System.Windows.Forms.Label();
             this.tbnombreempresa = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.tbid = new System.Windows.Forms.TextBox();
+            this.id_Proveedor = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRegistrar
@@ -56,10 +58,11 @@
             this.btnRegistrar.TabIndex = 35;
             this.btnRegistrar.Text = "REGISTRAR";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // tbfechaentregadeproducto
             // 
-            this.tbfechaentregadeproducto.Location = new System.Drawing.Point(312, 313);
+            this.tbfechaentregadeproducto.Location = new System.Drawing.Point(323, 363);
             this.tbfechaentregadeproducto.Multiline = true;
             this.tbfechaentregadeproducto.Name = "tbfechaentregadeproducto";
             this.tbfechaentregadeproducto.Size = new System.Drawing.Size(431, 27);
@@ -67,7 +70,7 @@
             // 
             // tbterminodepago
             // 
-            this.tbterminodepago.Location = new System.Drawing.Point(312, 277);
+            this.tbterminodepago.Location = new System.Drawing.Point(323, 327);
             this.tbterminodepago.Multiline = true;
             this.tbterminodepago.Name = "tbterminodepago";
             this.tbterminodepago.Size = new System.Drawing.Size(431, 27);
@@ -75,7 +78,7 @@
             // 
             // tbcorreoelectronico
             // 
-            this.tbcorreoelectronico.Location = new System.Drawing.Point(312, 245);
+            this.tbcorreoelectronico.Location = new System.Drawing.Point(323, 295);
             this.tbcorreoelectronico.Multiline = true;
             this.tbcorreoelectronico.Name = "tbcorreoelectronico";
             this.tbcorreoelectronico.Size = new System.Drawing.Size(431, 27);
@@ -83,7 +86,7 @@
             // 
             // tbtelefono
             // 
-            this.tbtelefono.Location = new System.Drawing.Point(312, 209);
+            this.tbtelefono.Location = new System.Drawing.Point(323, 259);
             this.tbtelefono.Multiline = true;
             this.tbtelefono.Name = "tbtelefono";
             this.tbtelefono.Size = new System.Drawing.Size(431, 27);
@@ -91,7 +94,7 @@
             // 
             // tbdireccion
             // 
-            this.tbdireccion.Location = new System.Drawing.Point(312, 174);
+            this.tbdireccion.Location = new System.Drawing.Point(323, 224);
             this.tbdireccion.Multiline = true;
             this.tbdireccion.Name = "tbdireccion";
             this.tbdireccion.Size = new System.Drawing.Size(431, 27);
@@ -99,7 +102,7 @@
             // 
             // tbnombredecontacto
             // 
-            this.tbnombredecontacto.Location = new System.Drawing.Point(312, 139);
+            this.tbnombredecontacto.Location = new System.Drawing.Point(323, 189);
             this.tbnombredecontacto.Multiline = true;
             this.tbnombredecontacto.Name = "tbnombredecontacto";
             this.tbnombredecontacto.Size = new System.Drawing.Size(431, 27);
@@ -107,7 +110,7 @@
             // 
             // tbnombredeempresa
             // 
-            this.tbnombredeempresa.Location = new System.Drawing.Point(312, 101);
+            this.tbnombredeempresa.Location = new System.Drawing.Point(323, 151);
             this.tbnombredeempresa.Multiline = true;
             this.tbnombredeempresa.Name = "tbnombredeempresa";
             this.tbnombredeempresa.Size = new System.Drawing.Size(431, 26);
@@ -117,7 +120,7 @@
             // 
             this.labelfechaentregadeproductos.AutoSize = true;
             this.labelfechaentregadeproductos.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelfechaentregadeproductos.Location = new System.Drawing.Point(43, 321);
+            this.labelfechaentregadeproductos.Location = new System.Drawing.Point(54, 371);
             this.labelfechaentregadeproductos.Name = "labelfechaentregadeproductos";
             this.labelfechaentregadeproductos.Size = new System.Drawing.Size(263, 19);
             this.labelfechaentregadeproductos.TabIndex = 25;
@@ -127,7 +130,7 @@
             // 
             this.labelterminosdepago.AutoSize = true;
             this.labelterminosdepago.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelterminosdepago.Location = new System.Drawing.Point(43, 285);
+            this.labelterminosdepago.Location = new System.Drawing.Point(54, 335);
             this.labelterminosdepago.Name = "labelterminosdepago";
             this.labelterminosdepago.Size = new System.Drawing.Size(159, 19);
             this.labelterminosdepago.TabIndex = 24;
@@ -137,7 +140,7 @@
             // 
             this.labelcorreoelectronico.AutoSize = true;
             this.labelcorreoelectronico.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelcorreoelectronico.Location = new System.Drawing.Point(43, 253);
+            this.labelcorreoelectronico.Location = new System.Drawing.Point(54, 303);
             this.labelcorreoelectronico.Name = "labelcorreoelectronico";
             this.labelcorreoelectronico.Size = new System.Drawing.Size(188, 19);
             this.labelcorreoelectronico.TabIndex = 23;
@@ -147,7 +150,7 @@
             // 
             this.labeltelefono.AutoSize = true;
             this.labeltelefono.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labeltelefono.Location = new System.Drawing.Point(43, 219);
+            this.labeltelefono.Location = new System.Drawing.Point(54, 269);
             this.labeltelefono.Name = "labeltelefono";
             this.labeltelefono.Size = new System.Drawing.Size(96, 19);
             this.labeltelefono.TabIndex = 22;
@@ -157,7 +160,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(43, 182);
+            this.label4.Location = new System.Drawing.Point(54, 232);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(98, 19);
             this.label4.TabIndex = 21;
@@ -167,7 +170,7 @@
             // 
             this.tbnombrecontacto.AutoSize = true;
             this.tbnombrecontacto.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbnombrecontacto.Location = new System.Drawing.Point(43, 149);
+            this.tbnombrecontacto.Location = new System.Drawing.Point(54, 199);
             this.tbnombrecontacto.Name = "tbnombrecontacto";
             this.tbnombrecontacto.Size = new System.Drawing.Size(196, 19);
             this.tbnombrecontacto.TabIndex = 20;
@@ -177,7 +180,7 @@
             // 
             this.tbnombreempresa.AutoSize = true;
             this.tbnombreempresa.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbnombreempresa.Location = new System.Drawing.Point(43, 109);
+            this.tbnombreempresa.Location = new System.Drawing.Point(54, 159);
             this.tbnombreempresa.Name = "tbnombreempresa";
             this.tbnombreempresa.Size = new System.Drawing.Size(189, 19);
             this.tbnombreempresa.TabIndex = 19;
@@ -193,12 +196,32 @@
             this.label1.TabIndex = 18;
             this.label1.Text = "REGISTRO DE PROVEEDORES";
             // 
+            // tbid
+            // 
+            this.tbid.Location = new System.Drawing.Point(323, 113);
+            this.tbid.Multiline = true;
+            this.tbid.Name = "tbid";
+            this.tbid.Size = new System.Drawing.Size(431, 26);
+            this.tbid.TabIndex = 39;
+            // 
+            // id_Proveedor
+            // 
+            this.id_Proveedor.AutoSize = true;
+            this.id_Proveedor.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id_Proveedor.Location = new System.Drawing.Point(54, 120);
+            this.id_Proveedor.Name = "id_Proveedor";
+            this.id_Proveedor.Size = new System.Drawing.Size(31, 19);
+            this.id_Proveedor.TabIndex = 38;
+            this.id_Proveedor.Text = "ID";
+            // 
             // Proveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 502);
+            this.Controls.Add(this.tbid);
+            this.Controls.Add(this.id_Proveedor);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.tbfechaentregadeproducto);
             this.Controls.Add(this.tbterminodepago);
@@ -240,5 +263,7 @@
         private System.Windows.Forms.Label tbnombrecontacto;
         private System.Windows.Forms.Label tbnombreempresa;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbid;
+        private System.Windows.Forms.Label id_Proveedor;
     }
 }
