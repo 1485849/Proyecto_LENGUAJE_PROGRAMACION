@@ -30,9 +30,7 @@
         {
             this.btnRegistrarProducto = new System.Windows.Forms.Button();
             this.btnRegistrarProveedores = new System.Windows.Forms.Button();
-            this.btnSalidas_Inventario = new System.Windows.Forms.Button();
-            this.btnMovimientos_Inventario = new System.Windows.Forms.Button();
-            this.btnEntradas_Inventario = new System.Windows.Forms.Button();
+            this.btnInventario = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnRegistrarProducto
@@ -51,7 +49,7 @@
             // 
             this.btnRegistrarProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnRegistrarProveedores.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarProveedores.Location = new System.Drawing.Point(169, 323);
+            this.btnRegistrarProveedores.Location = new System.Drawing.Point(291, 208);
             this.btnRegistrarProveedores.Name = "btnRegistrarProveedores";
             this.btnRegistrarProveedores.Size = new System.Drawing.Size(164, 68);
             this.btnRegistrarProveedores.TabIndex = 18;
@@ -59,38 +57,17 @@
             this.btnRegistrarProveedores.UseVisualStyleBackColor = false;
             this.btnRegistrarProveedores.Click += new System.EventHandler(this.btnRegistrarProveedores_Click);
             // 
-            // btnSalidas_Inventario
+            // btnInventario
             // 
-            this.btnSalidas_Inventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnSalidas_Inventario.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalidas_Inventario.Location = new System.Drawing.Point(477, 323);
-            this.btnSalidas_Inventario.Name = "btnSalidas_Inventario";
-            this.btnSalidas_Inventario.Size = new System.Drawing.Size(164, 68);
-            this.btnSalidas_Inventario.TabIndex = 19;
-            this.btnSalidas_Inventario.Text = "Salidas_Inventario";
-            this.btnSalidas_Inventario.UseVisualStyleBackColor = false;
-            // 
-            // btnMovimientos_Inventario
-            // 
-            this.btnMovimientos_Inventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMovimientos_Inventario.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMovimientos_Inventario.Location = new System.Drawing.Point(607, 208);
-            this.btnMovimientos_Inventario.Name = "btnMovimientos_Inventario";
-            this.btnMovimientos_Inventario.Size = new System.Drawing.Size(164, 68);
-            this.btnMovimientos_Inventario.TabIndex = 20;
-            this.btnMovimientos_Inventario.Text = "Movimientos_Inventario";
-            this.btnMovimientos_Inventario.UseVisualStyleBackColor = false;
-            // 
-            // btnEntradas_Inventario
-            // 
-            this.btnEntradas_Inventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnEntradas_Inventario.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEntradas_Inventario.Location = new System.Drawing.Point(316, 208);
-            this.btnEntradas_Inventario.Name = "btnEntradas_Inventario";
-            this.btnEntradas_Inventario.Size = new System.Drawing.Size(164, 68);
-            this.btnEntradas_Inventario.TabIndex = 21;
-            this.btnEntradas_Inventario.Text = "Entradas_Inventario";
-            this.btnEntradas_Inventario.UseVisualStyleBackColor = false;
+            this.btnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btnInventario.Font = new System.Drawing.Font("Ravie", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.Location = new System.Drawing.Point(561, 208);
+            this.btnInventario.Name = "btnInventario";
+            this.btnInventario.Size = new System.Drawing.Size(164, 68);
+            this.btnInventario.TabIndex = 19;
+            this.btnInventario.Text = "Inventario";
+            this.btnInventario.UseVisualStyleBackColor = false;
+            this.btnInventario.Click += new System.EventHandler(this.btnInventario_Click);
             // 
             // Form1
             // 
@@ -98,9 +75,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 509);
-            this.Controls.Add(this.btnEntradas_Inventario);
-            this.Controls.Add(this.btnMovimientos_Inventario);
-            this.Controls.Add(this.btnSalidas_Inventario);
+            this.Controls.Add(this.btnInventario);
             this.Controls.Add(this.btnRegistrarProveedores);
             this.Controls.Add(this.btnRegistrarProducto);
             this.Name = "Form1";
@@ -112,9 +87,7 @@
         #endregion
         private System.Windows.Forms.Button btnRegistrarProducto;
         private System.Windows.Forms.Button btnRegistrarProveedores;
-        private System.Windows.Forms.Button btnSalidas_Inventario;
-        private System.Windows.Forms.Button btnMovimientos_Inventario;
-        private System.Windows.Forms.Button btnEntradas_Inventario;
+        private System.Windows.Forms.Button btnInventario;
     }
 }
 

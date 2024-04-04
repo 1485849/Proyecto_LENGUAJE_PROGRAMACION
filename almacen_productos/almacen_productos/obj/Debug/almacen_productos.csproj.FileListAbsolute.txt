@@ -21,3 +21,16 @@ C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\alma
 C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.CoreCompileInputs.cache
 C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.exe
 C:\Users\SOPORTE\Documents\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.pdb
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.exe.config
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.exe
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\bin\Debug\almacen_productos.pdb
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.AssemblyReference.cache
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Form1.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Inventario.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Productos.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Properties.Resources.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Proveedores.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.GenerateResource.cache
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.CoreCompileInputs.cache
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.exe
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.pdb

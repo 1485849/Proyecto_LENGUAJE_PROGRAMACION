@@ -8,6 +8,7 @@ namespace almacen_productos
     {
         Productos formularioProductos;
         Proveedores formularioProveedores;
+        Inventario formularioInventario;
 
         public Form1()
         {
@@ -16,6 +17,7 @@ namespace almacen_productos
             // Inicializar las instancias de los formularios
             formularioProductos = new Productos();
             formularioProveedores = new Proveedores();
+            formularioInventario = new Inventario();
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -31,6 +33,11 @@ namespace almacen_productos
         private void btnRegistrarProveedores_Click(object sender, EventArgs e)
         {
             formularioProveedores.ShowDialog();
+        }
+
+        private void btnInventario_Click(object sender, EventArgs e)
+        {
+            formularioInventario.ShowDialog();
         }
     }
 }

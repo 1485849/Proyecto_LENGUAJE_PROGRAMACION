@@ -77,9 +77,20 @@ namespace almacen_productos
             // Cerrar el formulario actual (Productos)
             this.Close();
 
-            // Mostrar el formulario principal (Form1)
-            Form1 formPrincipal = new Form1();
-            formPrincipal.Show();
+            // Buscar una instancia existente del formulario principal
+            Form1 formPrincipal = Application.OpenForms.OfType<Form1>().FirstOrDefault();
+
+            if (formPrincipal != null)
+            {
+                // Si existe, tráelo al frente
+                formPrincipal.BringToFront();
+            }
+            else
+            {
+                // Si no existe, crea una nueva instancia y muéstrala
+                formPrincipal = new Form1();
+                formPrincipal.Show();
+            }
         }
     }
 }
