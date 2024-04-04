@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\inventario de salida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\inventario de salida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\inventario_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\inventario_entrada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\movimiento_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\movimiento_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\movimiento_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\movimiento_inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\proveedores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|d:\\yarid\\trabajos\\lenguaje de programacion\\proyecto_lenguaje_programacion\\almacen_productos\\almacen_productos\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F967EA96-2A41-4B61-BE0A-B76FFDDB0F58}|almacen_productos\\almacen_productos.csproj|solutionrelative:almacen_productos\\Inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,69 +46,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Proveedores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Proveedores.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs [Dise\u00F1o]",
-              "RelativeToolTip": "almacen_productos\\Proveedores.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Inventario_Entrada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario_Entrada.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Inventario_Entrada.cs",
+              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario_Entrada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "almacen_productos\\Inventario_Entrada.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T15:19:26.188Z",
+              "WhenOpened": "2024-04-04T15:14:49.155Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Proveedores.cs",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Proveedores.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Proveedores.cs",
-              "RelativeToolTip": "almacen_productos\\Proveedores.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAjwFEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T19:10:52.09Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Form1.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "almacen_productos\\Form1.cs [Dise\u00F1o]",
+              "Title": "Movimiento_Inventario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Movimiento_Inventario.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Movimiento_Inventario.cs",
+              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Movimiento_Inventario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "almacen_productos\\Movimiento_Inventario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T15:12:16.284Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Productos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Productos.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "almacen_productos\\Productos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T19:08:58.23Z",
+              "WhenOpened": "2024-04-04T15:18:57.79Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Form1.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.cs",
-              "RelativeToolTip": "almacen_productos\\Form1.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCcAAAAgAAAA",
+              "Title": "Inventario de Salida.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario de Salida.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Inventario de Salida.cs",
+              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario de Salida.cs [Dise\u00F1o]",
+              "RelativeToolTip": "almacen_productos\\Inventario de Salida.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T15:15:19.996Z",
+              "WhenOpened": "2024-04-04T14:42:23.199Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Movimiento_Inventario.cs",
+              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Movimiento_Inventario.cs",
+              "RelativeDocumentMoniker": "almacen_productos\\Movimiento_Inventario.cs",
+              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Movimiento_Inventario.cs",
+              "RelativeToolTip": "almacen_productos\\Movimiento_Inventario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:20:46.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Inventario.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Inventario.cs",
@@ -128,20 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
-              "RelativeDocumentMoniker": "almacen_productos\\Productos.cs",
-              "ToolTip": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Productos.cs",
-              "RelativeToolTip": "almacen_productos\\Productos.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAArwFMAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T19:09:24.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Inventario.cs",
               "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Inventario.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Inventario.cs",
@@ -154,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\yarid\\TRABAJOS\\LENGUAJE DE PROGRAMACION\\Proyecto_LENGUAJE_PROGRAMACION\\almacen_productos\\almacen_productos\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "almacen_productos\\Form1.Designer.cs",

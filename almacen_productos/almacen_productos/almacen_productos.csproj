@@ -52,11 +52,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inventario de Salida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario de Salida.Designer.cs">
+      <DependentUpon>Inventario de Salida.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Inventario.Designer.cs">
       <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario_Entrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario_Entrada.Designer.cs">
+      <DependentUpon>Inventario_Entrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Movimiento_Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Movimiento_Inventario.Designer.cs">
+      <DependentUpon>Movimiento_Inventario.cs</DependentUpon>
     </Compile>
     <Compile Include="Productos.cs">
       <SubType>Form</SubType>
@@ -75,8 +93,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Inventario de Salida.resx">
+      <DependentUpon>Inventario de Salida.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Inventario.resx">
       <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario_Entrada.resx">
+      <DependentUpon>Inventario_Entrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Movimiento_Inventario.resx">
+      <DependentUpon>Movimiento_Inventario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Productos.resx">
       <DependentUpon>Productos.cs</DependentUpon>
