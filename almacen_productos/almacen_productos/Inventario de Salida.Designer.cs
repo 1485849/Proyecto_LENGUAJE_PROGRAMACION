@@ -42,7 +42,7 @@
             this.tbNumeroFactura = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnBuscar = new System.Windows.Forms.Button();
             this.tbMotivo_Salida = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -169,15 +169,15 @@
             this.button2.Text = "Filtrar";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnBuscar
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(322, 327);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "buscar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnBuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnBuscar.Location = new System.Drawing.Point(322, 327);
+            this.btnBuscar.Name = "btnBuscar";
+            this.btnBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnBuscar.TabIndex = 14;
+            this.btnBuscar.Text = "buscar";
+            this.btnBuscar.UseVisualStyleBackColor = false;
             // 
             // tbMotivo_Salida
             // 
@@ -204,7 +204,7 @@
             this.ClientSize = new System.Drawing.Size(488, 368);
             this.Controls.Add(this.tbMotivo_Salida);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbNumeroFactura);
@@ -242,7 +242,7 @@
         private System.Windows.Forms.TextBox tbNumeroFactura;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox tbMotivo_Salida;
         private System.Windows.Forms.Label label7;
     }

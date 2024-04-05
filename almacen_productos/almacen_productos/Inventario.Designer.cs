@@ -56,6 +56,7 @@
             this.btnMovimientoInventario.TabIndex = 6;
             this.btnMovimientoInventario.Text = "Mivimiento de Inventario";
             this.btnMovimientoInventario.UseVisualStyleBackColor = false;
+            this.btnMovimientoInventario.Click += new System.EventHandler(this.btnMovimientoInventario_Click);
             // 
             // btnInventarioEntrada
             // 
@@ -67,6 +68,7 @@
             this.btnInventarioEntrada.TabIndex = 5;
             this.btnInventarioEntrada.Text = "Inventario de Entrada";
             this.btnInventarioEntrada.UseVisualStyleBackColor = false;
+            this.btnInventarioEntrada.Click += new System.EventHandler(this.btnInventarioEntrada_Click);
             // 
             // btnInventarioSalida
             // 
@@ -78,6 +80,7 @@
             this.btnInventarioSalida.TabIndex = 4;
             this.btnInventarioSalida.Text = "Inventario de salida";
             this.btnInventarioSalida.UseVisualStyleBackColor = false;
+            this.btnInventarioSalida.Click += new System.EventHandler(this.btnInventarioSalida_Click);
             // 
             // Inventario
             // 

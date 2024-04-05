@@ -34,3 +34,6 @@ D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almace
 D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.csproj.CoreCompileInputs.cache
 D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.exe
 D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.pdb
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Inventario_de_Salida.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Inventario_Entrada.resources
+D:\yarid\TRABAJOS\LENGUAJE DE PROGRAMACION\Proyecto_LENGUAJE_PROGRAMACION\almacen_productos\almacen_productos\obj\Debug\almacen_productos.Movimiento_Inventario.resources

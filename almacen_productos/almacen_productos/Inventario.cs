@@ -12,9 +12,19 @@ namespace almacen_productos
 {
     public partial class Inventario : Form
     {
+
+        Inventario_de_Salida formularioInventario_De_Salida;
+        Inventario_Entrada formularioInventario_Entrada;
+        Movimiento_Inventario formularioMovimiento_Inventario;
         public Inventario()
         {
             InitializeComponent();
+
+            
+            formularioInventario_De_Salida = new Inventario_de_Salida();
+            formularioInventario_Entrada = new Inventario_Entrada();
+            formularioMovimiento_Inventario = new Movimiento_Inventario();
+
         }
 
         private void Inventario_Load(object sender, EventArgs e)
@@ -41,6 +51,21 @@ namespace almacen_productos
                 formPrincipal = new Form1();
                 formPrincipal.Show();
             }
+        }
+
+        private void btnInventarioSalida_Click(object sender, EventArgs e)
+        {
+            formularioInventario_De_Salida.ShowDialog();
+        }
+
+        private void btnInventarioEntrada_Click(object sender, EventArgs e)
+        {
+            formularioInventario_Entrada.ShowDialog();
+        }
+
+        private void btnMovimientoInventario_Click(object sender, EventArgs e)
+        {
+            formularioMovimiento_Inventario.ShowDialog();
         }
     }
 }

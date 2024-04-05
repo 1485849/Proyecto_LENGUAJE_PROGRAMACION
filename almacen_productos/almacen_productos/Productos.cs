@@ -15,7 +15,7 @@ namespace almacen_productos
     {
 
         // Cadena de conexión a la base de datos - ¡Asegúrate de ajustarla según tu configuración!
-        string connectionString = "Data Source=(local);Initial Catalog=ALMACEN_YARID;Integrated Security=True";
+        string connectionString = "Data Source=(localdb)\\senati;Initial Catalog=ALMACEN_YARID;Integrated Security=True";
         public Productos()
         {
             InitializeComponent();
@@ -29,18 +29,44 @@ namespace almacen_productos
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
+
+            // Validación de campos
+            if (string.IsNullOrWhiteSpace(tbnombre.Text) || string.IsNullOrWhiteSpace(tbdescripcion.Text) ||
+                string.IsNullOrWhiteSpace(tbcodigo.Text) || string.IsNullOrWhiteSpace(tbcategoria.Text) ||
+                string.IsNullOrWhiteSpace(tbprecio.Text) || string.IsNullOrWhiteSpace(tbunidaddemedida.Text) ||
+                string.IsNullOrWhiteSpace(dateTimePickerfechavencimiento.Text) || string.IsNullOrWhiteSpace(tbcantidad.Text))
+            {
+                MessageBox.Show("Por favor, complete todos los campos.");
+                return;
+            }
+
             // Captura los datos del formulario
             string nombre = tbnombre.Text;
             string descripcion = tbdescripcion.Text;
             string codigo = tbcodigo.Text;
             string categoria = tbcategoria.Text;
-            decimal precio = Convert.ToDecimal(tbprecio.Text);
+            decimal precio;
+            if (!decimal.TryParse(tbprecio.Text, out precio))
+            {
+                MessageBox.Show("El precio debe ser un número decimal válido.");
+                return;
+            }
             string unidadMedida = tbunidaddemedida.Text;
-            string fechaVencimiento = dateTimePickerfechavencimiento.Text;
-            int cantidad = Convert.ToInt32(tbcantidad.Text);
+            DateTime fechaVencimiento;
+            if (!DateTime.TryParse(dateTimePickerfechavencimiento.Text, out fechaVencimiento))
+            {
+                MessageBox.Show("Formato de fecha inválido para la fecha de vencimiento.");
+                return;
+            }
+            int cantidad;
+            if (!int.TryParse(tbcantidad.Text, out cantidad))
+            {
+                MessageBox.Show("La cantidad debe ser un número entero válido.");
+                return;
+            }
 
             // Crea la consulta SQL para insertar los datos en la base de datos
-            string query = "INSERT INTO TuTabla (Nombre, Descripcion, Codigo, Categoria, Precio, Unidad_Medida, Fecha_Vencimiento, Cantidad) " +
+            string query = "INSERT INTO Productos (Nombre, Descripcion, Codigo, Categoria, Precio, Unidad_Medida, Fecha_Vencimiento, Cantidad) " +
                            "VALUES (@Nombre, @Descripcion, @Codigo, @Categoria, @Precio, @Unidad_Medida, @Fecha_Vencimiento, @Cantidad)";
 
             // Establece la conexión a la base de datos y ejecuta la consulta
