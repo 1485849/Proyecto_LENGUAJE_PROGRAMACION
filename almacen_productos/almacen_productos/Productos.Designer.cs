@@ -47,6 +47,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnvolver = new System.Windows.Forms.Button();
+            this.tbid = new System.Windows.Forms.TextBox();
+            this.id_Proveedor = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnRegistrar
@@ -63,7 +65,7 @@
             // 
             // tbcantidad
             // 
-            this.tbcantidad.Location = new System.Drawing.Point(312, 327);
+            this.tbcantidad.Location = new System.Drawing.Point(312, 342);
             this.tbcantidad.Multiline = true;
             this.tbcantidad.Name = "tbcantidad";
             this.tbcantidad.Size = new System.Drawing.Size(431, 27);
@@ -71,7 +73,7 @@
             // 
             // dateTimePickerfechavencimiento
             // 
-            this.dateTimePickerfechavencimiento.Location = new System.Drawing.Point(312, 291);
+            this.dateTimePickerfechavencimiento.Location = new System.Drawing.Point(312, 306);
             this.dateTimePickerfechavencimiento.Multiline = true;
             this.dateTimePickerfechavencimiento.Name = "dateTimePickerfechavencimiento";
             this.dateTimePickerfechavencimiento.Size = new System.Drawing.Size(431, 27);
@@ -79,7 +81,7 @@
             // 
             // tbunidaddemedida
             // 
-            this.tbunidaddemedida.Location = new System.Drawing.Point(312, 255);
+            this.tbunidaddemedida.Location = new System.Drawing.Point(312, 270);
             this.tbunidaddemedida.Multiline = true;
             this.tbunidaddemedida.Name = "tbunidaddemedida";
             this.tbunidaddemedida.Size = new System.Drawing.Size(431, 27);
@@ -87,7 +89,7 @@
             // 
             // tbprecio
             // 
-            this.tbprecio.Location = new System.Drawing.Point(312, 223);
+            this.tbprecio.Location = new System.Drawing.Point(312, 238);
             this.tbprecio.Multiline = true;
             this.tbprecio.Name = "tbprecio";
             this.tbprecio.Size = new System.Drawing.Size(431, 27);
@@ -95,7 +97,7 @@
             // 
             // tbcategoria
             // 
-            this.tbcategoria.Location = new System.Drawing.Point(312, 187);
+            this.tbcategoria.Location = new System.Drawing.Point(312, 202);
             this.tbcategoria.Multiline = true;
             this.tbcategoria.Name = "tbcategoria";
             this.tbcategoria.Size = new System.Drawing.Size(431, 27);
@@ -103,7 +105,7 @@
             // 
             // tbcodigo
             // 
-            this.tbcodigo.Location = new System.Drawing.Point(312, 152);
+            this.tbcodigo.Location = new System.Drawing.Point(312, 167);
             this.tbcodigo.Multiline = true;
             this.tbcodigo.Name = "tbcodigo";
             this.tbcodigo.Size = new System.Drawing.Size(431, 27);
@@ -111,7 +113,7 @@
             // 
             // tbdescripcion
             // 
-            this.tbdescripcion.Location = new System.Drawing.Point(312, 117);
+            this.tbdescripcion.Location = new System.Drawing.Point(312, 132);
             this.tbdescripcion.Multiline = true;
             this.tbdescripcion.Name = "tbdescripcion";
             this.tbdescripcion.Size = new System.Drawing.Size(431, 27);
@@ -119,7 +121,7 @@
             // 
             // tbnombre
             // 
-            this.tbnombre.Location = new System.Drawing.Point(312, 79);
+            this.tbnombre.Location = new System.Drawing.Point(312, 94);
             this.tbnombre.Multiline = true;
             this.tbnombre.Name = "tbnombre";
             this.tbnombre.Size = new System.Drawing.Size(431, 26);
@@ -129,7 +131,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(57, 333);
+            this.label9.Location = new System.Drawing.Point(57, 348);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(90, 19);
             this.label9.TabIndex = 26;
@@ -139,7 +141,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(57, 297);
+            this.label8.Location = new System.Drawing.Point(57, 312);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(209, 19);
             this.label8.TabIndex = 25;
@@ -149,7 +151,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(57, 261);
+            this.label7.Location = new System.Drawing.Point(57, 276);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(172, 19);
             this.label7.TabIndex = 24;
@@ -159,7 +161,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(57, 229);
+            this.label6.Location = new System.Drawing.Point(57, 244);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(70, 19);
             this.label6.TabIndex = 23;
@@ -169,7 +171,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(57, 195);
+            this.label5.Location = new System.Drawing.Point(57, 210);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(109, 19);
             this.label5.TabIndex = 22;
@@ -179,7 +181,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(57, 158);
+            this.label4.Location = new System.Drawing.Point(57, 173);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 19);
             this.label4.TabIndex = 21;
@@ -189,7 +191,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(57, 125);
+            this.label3.Location = new System.Drawing.Point(57, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(118, 19);
             this.label3.TabIndex = 20;
@@ -199,7 +201,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(57, 85);
+            this.label2.Location = new System.Drawing.Point(57, 100);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 19);
             this.label2.TabIndex = 19;
@@ -227,11 +229,31 @@
             this.btnvolver.UseVisualStyleBackColor = false;
             this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
+            // tbid
+            // 
+            this.tbid.Location = new System.Drawing.Point(312, 57);
+            this.tbid.Multiline = true;
+            this.tbid.Name = "tbid";
+            this.tbid.Size = new System.Drawing.Size(431, 26);
+            this.tbid.TabIndex = 41;
+            // 
+            // id_Proveedor
+            // 
+            this.id_Proveedor.AutoSize = true;
+            this.id_Proveedor.Font = new System.Drawing.Font("Snap ITC", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id_Proveedor.Location = new System.Drawing.Point(62, 64);
+            this.id_Proveedor.Name = "id_Proveedor";
+            this.id_Proveedor.Size = new System.Drawing.Size(31, 19);
+            this.id_Proveedor.TabIndex = 40;
+            this.id_Proveedor.Text = "ID";
+            // 
             // Productos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 493);
+            this.Controls.Add(this.tbid);
+            this.Controls.Add(this.id_Proveedor);
             this.Controls.Add(this.btnvolver);
             this.Controls.Add(this.btnRegistrar);
             this.Controls.Add(this.tbcantidad);
@@ -279,5 +301,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnvolver;
+        private System.Windows.Forms.TextBox tbid;
+        private System.Windows.Forms.Label id_Proveedor;
     }
 }

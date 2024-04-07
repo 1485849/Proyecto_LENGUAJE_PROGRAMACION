@@ -31,7 +31,8 @@ namespace almacen_productos
         {
 
             // Validación de campos
-            if (string.IsNullOrWhiteSpace(tbnombre.Text) || string.IsNullOrWhiteSpace(tbdescripcion.Text) ||
+            if (string.IsNullOrWhiteSpace(tbid.Text) ||
+                string.IsNullOrWhiteSpace(tbnombre.Text) || string.IsNullOrWhiteSpace(tbdescripcion.Text) ||
                 string.IsNullOrWhiteSpace(tbcodigo.Text) || string.IsNullOrWhiteSpace(tbcategoria.Text) ||
                 string.IsNullOrWhiteSpace(tbprecio.Text) || string.IsNullOrWhiteSpace(tbunidaddemedida.Text) ||
                 string.IsNullOrWhiteSpace(dateTimePickerfechavencimiento.Text) || string.IsNullOrWhiteSpace(tbcantidad.Text))
@@ -41,6 +42,12 @@ namespace almacen_productos
             }
 
             // Captura los datos del formulario
+            int idProducto;
+            if (!int.TryParse(tbid.Text, out idProducto))
+            {
+                MessageBox.Show("El ID del producto debe ser un número entero válido.");
+                return;
+            }
             string nombre = tbnombre.Text;
             string descripcion = tbdescripcion.Text;
             string codigo = tbcodigo.Text;
@@ -66,8 +73,8 @@ namespace almacen_productos
             }
 
             // Crea la consulta SQL para insertar los datos en la base de datos
-            string query = "INSERT INTO Productos (Nombre, Descripcion, Codigo, Categoria, Precio, Unidad_Medida, Fecha_Vencimiento, Cantidad) " +
-                           "VALUES (@Nombre, @Descripcion, @Codigo, @Categoria, @Precio, @Unidad_Medida, @Fecha_Vencimiento, @Cantidad)";
+            string query = "INSERT INTO Productos (ID_Producto, Nombre, Descripcion, Codigo, Categoria, Precio, Unidad_Medida, Fecha_Vencimiento, Cantidad) " +
+                           "VALUES (@ID_Producto, @Nombre, @Descripcion, @Codigo, @Categoria, @Precio, @Unidad_Medida, @Fecha_Vencimiento, @Cantidad)";
 
             // Establece la conexión a la base de datos y ejecuta la consulta
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -75,6 +82,7 @@ namespace almacen_productos
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     // Añade parámetros para evitar la inyección SQL
+                    command.Parameters.AddWithValue("@ID_Producto", idProducto);
                     command.Parameters.AddWithValue("@Nombre", nombre);
                     command.Parameters.AddWithValue("@Descripcion", descripcion);
                     command.Parameters.AddWithValue("@Codigo", codigo);

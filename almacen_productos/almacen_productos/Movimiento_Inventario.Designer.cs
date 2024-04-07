@@ -30,9 +30,9 @@
         {
             this.tbFecha_Hora_Movimiento = new System.Windows.Forms.TextBox();
             this.CantidadMovida = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnbuscar = new System.Windows.Forms.Button();
+            this.btnFiltrar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.tbDestino = new System.Windows.Forms.TextBox();
             this.tbOrigen = new System.Windows.Forms.TextBox();
             this.tbCantidad_Movida = new System.Windows.Forms.TextBox();
@@ -65,35 +65,36 @@
             this.CantidadMovida.Text = "Cantidad Movida";
             this.CantidadMovida.Click += new System.EventHandler(this.label7_Click);
             // 
-            // button3
+            // btnbuscar
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button3.Location = new System.Drawing.Point(327, 302);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 31;
-            this.button3.Text = "buscar";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnbuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnbuscar.Location = new System.Drawing.Point(327, 302);
+            this.btnbuscar.Name = "btnbuscar";
+            this.btnbuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnbuscar.TabIndex = 31;
+            this.btnbuscar.Text = "buscar";
+            this.btnbuscar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnFiltrar
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button2.Location = new System.Drawing.Point(213, 302);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 30;
-            this.button2.Text = "Filtrar";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnFiltrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnFiltrar.Location = new System.Drawing.Point(213, 302);
+            this.btnFiltrar.Name = "btnFiltrar";
+            this.btnFiltrar.Size = new System.Drawing.Size(75, 23);
+            this.btnFiltrar.TabIndex = 30;
+            this.btnFiltrar.Text = "Filtrar";
+            this.btnFiltrar.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnGuardar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.button1.Location = new System.Drawing.Point(100, 302);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnGuardar.Location = new System.Drawing.Point(100, 302);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 23);
+            this.btnGuardar.TabIndex = 29;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.button1_Click);
             // 
             // tbDestino
             // 
@@ -205,9 +206,9 @@
             this.ClientSize = new System.Drawing.Size(473, 343);
             this.Controls.Add(this.tbFecha_Hora_Movimiento);
             this.Controls.Add(this.CantidadMovida);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnbuscar);
+            this.Controls.Add(this.btnFiltrar);
+            this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.tbDestino);
             this.Controls.Add(this.tbOrigen);
             this.Controls.Add(this.tbCantidad_Movida);
@@ -232,9 +233,9 @@
 
         private System.Windows.Forms.TextBox tbFecha_Hora_Movimiento;
         private System.Windows.Forms.Label CantidadMovida;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnbuscar;
+        private System.Windows.Forms.Button btnFiltrar;
+        private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.TextBox tbDestino;
         private System.Windows.Forms.TextBox tbOrigen;
         private System.Windows.Forms.TextBox tbCantidad_Movida;
